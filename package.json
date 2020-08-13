@@ -1,0 +1,26 @@
+{
+  "name": "@roofox/remark-prismjs",
+  "version": "0.1.0",
+  "description": "Plugin for Remark to highlight markdown code blocks",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "remark",
+    "markdown",
+    "prism",
+    "prismjs",
+    "highlight"
+  ],
+  "author": "Sergio Flores <sergio@byoigr.es",
+  "license": "ISC",
+  "dependencies": {
+    "prismjs": "^1.21.0",
+    "remark": "^12.0.1",
+    "remark-html": "^12.0.0",
+    "remark-html-prismjs": "^1.1.0",
+    "remark-prismjs": "^1.0.0",
+    "unist-util-visit": "^2.0.3"
+  }
+}
